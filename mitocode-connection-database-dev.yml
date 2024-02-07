@@ -1,4 +1,4 @@
 application:
  name: Mitocode Certification Connection
  key: mongodb-connection-database
- value:'{cipher}426b2f319032f6b9b74aff21362189d12fc91262cad3712d12dc30e872067fc12adb0135ec3db6aa16a3e7bdbfcffe67fd9678e4911c444e8ef2b7ce9428b148'
+ value: '{cipher}426b2f319032f6b9b74aff21362189d12fc91262cad3712d12dc30e872067fc12adb0135ec3db6aa16a3e7bdbfcffe67fd9678e4911c444e8ef2b7ce9428b148'
