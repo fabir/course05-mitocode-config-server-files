@@ -1,2 +1,11 @@
+server:
+port: 9091
 encrypt:
     key: "mitocode-secret"
+
+eureka:
+client:
+ fetchRegistry:true
+ registerWithEureka:true
+ serviceUrl:
+  defaultZone:${EUREK.SERVER.HOSTNAME:http://localhost:8761/eureka}
