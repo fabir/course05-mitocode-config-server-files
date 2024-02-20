@@ -4,4 +4,5 @@ server:
 spring:
  data:
    mongodb:
-    uri: mongodb://username:password@localhost:27017/database
+    #uri: mongodb://username:password@localhost:27017/database user y password se pueden ver en el docker-compose-yml
+    uri: mongodb://mitocode:mitocode@localhost:27017/database
