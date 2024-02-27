@@ -1,0 +1,9 @@
+server:
+ port:${CUSTOM.SERVER.PORT:9005}
+
+user-service:
+ ribbon:
+  eureka:
+   enabled:false
+  listOfServers:localhost:9010,localhost:9011,localhost:9012
+  ServerListRefreshInterval:1500
