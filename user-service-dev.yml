@@ -1,9 +1,7 @@
 server:
- #port: 9010
- port:${CUSTOM.SERVER.PORT:9010}
+  port: ${CUSTOM.SERVER.PORT:9010}
 
 spring:
- data:
-   mongodb:
-    #uri: mongodb://username:password@localhost:27017/database user y password se pueden ver en el docker-compose-yml
-    uri: mongodb://mitocode:mitocode@localhost:27017/mitocode?authSource=admin
+  data:
+    mongodb:
+      uri: mongodb://mitocode:mitocode@localhost:27017/mitocode?authSource=admin
