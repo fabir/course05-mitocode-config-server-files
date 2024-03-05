@@ -13,4 +13,4 @@ product-service:
     eureka:
       enabled: false
     listOfServers: localhost:9100, localhost:9101, localhost:9102
-    ServerListRefreshInterval: 1500
+    ServerListRefreshInterval: 1500 #cada cuanto va a refrescar o verificar el estado de los servicios identificados como caidos
